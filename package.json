@@ -1,18 +1,18 @@
 {
-  "author": "Charlie Zheng <chuanyi.zheng@gmail.com>",
-  "name": "msexcel-builder-extended",
-  "description": "A tiny library to create Microsoft Office Excel(2007) files under Nodejs. Some extensions by Jan Blaha",
+  "author": "Daniel Le <thanhlcm90@gmail.com>",
+  "name": "msexcel-builder-ext",
+  "description": "A tiny library to create Microsoft Office Excel(2007) files under Nodejs. Some extensions by Daniel Le",
   "tags": [
     "xlsx",
     "excel"
   ],
-  "version": "0.0.3",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pofider/msexcel-builder.git"
+    "url": "git://github.com/thanhlcm90/msexcel-builder.git"
   },
   "bugs": {
-    "url": "https://github.com/pofider/msexcel-builder/issues"
+    "url": "https://github.com/thanhlcm90/msexcel-builder/issues"
   },
   "main": "./lib/msexcel-builder.js",
   "engines": {

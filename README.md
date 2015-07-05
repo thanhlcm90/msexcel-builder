@@ -12,16 +12,19 @@ Features:
 * Custom cell border styles and merge cells.
 * Text rotation in cells.
 
+New features:
+* Support SharedString
+
 ## Getting Started
 
 Install it in node.js:
 
 ```
-npm install msexcel-builder-colorfix
+npm install msexcel-builder-ext
 ```
 
 ```javascript
-var excelbuilder = require('msexcel-builder-colorfix');
+var excelbuilder = require('msexcel-builder-ext');
 ```
 
 Then create a sample workbook with one sheet and some data.
@@ -216,10 +219,6 @@ In node.js
 
 ## Release notes
 
-v0.0.2:
-* Switch compress work to easy-zip to support Heroku deployment.
-
-v0.0.1: Includes
+v0.0.1: Fork and extend
 
 * First release
-* Using 7z.exe to do compress work, so only support windows now.
