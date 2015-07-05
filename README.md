@@ -103,6 +103,8 @@ workbook.save(function(err){
 
 Cancel to make current workbook,drop all data.
 
+## WorkSheet
+
 ### Sheet.set(col, row, str)
 
 Set the cell data.
@@ -120,8 +122,8 @@ sheet1.set(1,1,'Hello ');
 sheet1.set(2,1,'world!');
 ```
 
-## Sheet.width(col, width)
-## Sheet.height(row, height)
+### Sheet.width(col, width)
+### Sheet.height(row, height)
 
 Set the column width or row height
 
@@ -132,10 +134,10 @@ sheet1.width(1, 30);
 sheet1.height(1, 20);
 ```
 
-## Sheet.align(col, row, align)
-## Sheet.valign(col, row, valign)
-## Sheet.wrap(col, row, wrap)
-## Sheet.rotate(col, row, angle)
+### Sheet.align(col, row, align)
+### Sheet.valign(col, row, valign)
+### Sheet.wrap(col, row, wrap)
+### Sheet.rotate(col, row, angle)
 
 Set cell text align style and wrap style
 
@@ -153,9 +155,9 @@ sheet1.wrap(1, 1, 'true');
 sheet1.rotate(1, 1, 90);
 ```
 
-## Sheet.font(col, row, font_style)
-## Sheet.fill(col, row, fill_style)
-## Sheet.border(col, row, border_style)
+### Sheet.font(col, row, font_style)
+### Sheet.fill(col, row, fill_style)
+### Sheet.border(col, row, border_style)
 
 Set cell font style, fill style or border style
 
@@ -192,7 +194,7 @@ sheet1.fill(3, 3, {type:'solid',fgColor:'FFFF0000',bgColor:'64'});
 sheet1.border(1, 1, {left:'medium',top:'medium',right:'thin',bottom:'medium'});
 ```
 
-## Sheet.merge(from_cell, to_cell)
+### Sheet.merge(from_cell, to_cell)
 
 Merge some cell ranges
 
@@ -207,6 +209,23 @@ Example: Merge the first row as title from (1,1) to (5,1)
 ```javascript
 sheet1.merge({col:1,row:1},{col:5,row:1});
 ```
+
+## SharedString
+
+`Workbook.ss`
+
+### Workbook.ss.str2id(s)
+
+Add sharedstring
+
+* `s` : sharedstring
+
+### Workbook.ss.raw(xml)
+
+Add sharedstring raw xml
+
+* `xml` : sharedstring xml raw content
+
 
 ## Testing
 

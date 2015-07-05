@@ -19,7 +19,7 @@
     "node": "*"
   },
   "dependencies": {
-    "xmlbuilder": ">=0.4.2",
+    "xmlbuilder": "~0.4.2",
     "async": "~0.2.6",
     "fs-extra": "~0.5.0",
     "easy-zip": "~0.0.4"
